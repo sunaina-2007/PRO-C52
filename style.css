@@ -1,0 +1,70 @@
+.menu{
+display: flex;
+justify-content: space-between;    
+background-color:lightcoral;
+padding: 15px;
+font-size: 30px;
+font-family: cursive,lucida handwriting;
+font-weight: 400;
+color:midnightblue;
+}
+
+body{
+margin: 0px;
+background-color: darkseagreen; 
+   
+}
+    
+.grid{
+display: flex;    
+flex-wrap: wrap;
+}
+    
+.grid img{
+border: 6px solid #000;    
+border-radius: 10px;
+}
+    
+.origami{
+border-radius: 20px;
+background-color:ghostwhite;
+padding: 30px;
+margin: 25px;
+width: 310px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+}
+
+.bodyimg p{
+font-variant:small-caps;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+a:link{
+color: antiquewhite;    
+}
+
+a:visited{
+color: antiquewhite;    
+}
+
+.origami:hover{
+transform:scale(1.2);    
+}
+
+.origami{
+position: relative;    
+}
+
+.origami h3{
+position:absolute;    
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.origami:hover h3{
+opacity: 0.33;    
+}
+
